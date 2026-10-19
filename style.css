@@ -155,3 +155,9 @@ footer {
     color: rgb(27, 27, 116)69, 69, 218);
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
